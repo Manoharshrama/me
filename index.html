@@ -17,22 +17,22 @@
     text-align: center;
   }
   .thumbnail {
-      width: 300px; 
-      height: auto;
-      border: 2px solid #ddd; /* Add a border */
-      border-radius: 5px; /* Rounded corners */
-      padding: 5px;
-      transition: 0.3s; /* Smooth hover effect */
-    }
+    width: 300px; 
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.3s;
+  }
   .thumbnail:hover {
-      border-color: #777; /* Change border color on hover */
-      transform: scale(1.1); /* Slight zoom effect */
-    }
-  img.centered {
-    display: block;
-    margin: 0 auto 20px auto;
-    max-width: 800px;
-    height: 50vh;
+    border-color: #777;
+    transform: scale(1.1);
+  }
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
   }
   ul.square-list {
     list-style-type: square;
@@ -48,7 +48,7 @@
     text-align: center;
     margin-bottom: 40px;
   }
-  .content{
+  .content {
     border: ridge;
     border-radius: 20px;
     padding: inherit;
@@ -60,54 +60,49 @@
 <h1>NagaManoharSharma Sankaramanchi</h1>
 
 <div class="contact-info">
-  <p><a href="mailto:nagamanoharsharmas@lewisu.edu">mail id:nagamanoharsharmas@lewisu.edu</a></p>
-  <p>Discord:naga06369</p>
+  <p><a href="mailto:nagamanoharsharmas@lewisu.edu">mail id: nagamanoharsharmas@lewisu.edu</a></p>
+  <p>Discord: naga06369</p>
 </div>
-<a href="me-800-by-800.jpg" class="centered" target="_blank">
+
+<div class="img-container">
+  <a href="me-800-by-800.jpg" target="_blank">
     <img src="me-300-by-300.jpg" alt="nagamanoharsharma" class="thumbnail">
   </a>
-
+</div>
 
 <h2>Introduction</h2>
 <p class="content">
   Hello! I’m NagaManohar Sharma.
-  I am a recent graduate with a Bachelor’s degree in Electronics and Computer Engineering, passionate about software development and emerging technologies.currently i am doing MASTERS in Computer Science at Lewis University. Although I am a fresher, I have gained practical experience through several mini projects that strengthened my problem-solving and programming skills. I am proficient in Python and Java, and I enjoy exploring how technology can be applied to create innovative and efficient solutions. I am eager to continue learning, growing, and contributing to the dynamic field of software development.
+  I am a recent graduate with a Bachelor’s degree in Electronics and Computer Engineering, passionate about software development and emerging technologies. Currently, I am pursuing a Master’s in Computer Science at Lewis University. Although I am a fresher, I have gained practical experience through several mini projects that strengthened my problem-solving and programming skills. I am proficient in Python and Java, and I enjoy exploring how technology can be applied to create innovative and efficient solutions. I am eager to continue learning, growing, and contributing to the dynamic field of software development.
 </p>
 
 <h2>What I Hope to Learn in this Course</h2>
-<p >
+<div class="content">
   <ul class="square-list">
     <li>Fundamentals of web development</li>
     <li>HTML and CSS best practices</li>
     <li>Responsive design techniques</li>
     <li>Version control with GitHub</li>
   </ul>
-</p>
+</div>
   
-
 <h2>My Favorite Hobby / Activity</h2>
-  <p >
-    <ul class="square-list">
-      <li>Hiking in National Parks</li>
-      <li>Cooking and trying different kinds of FOOD</li>
-    </ul>
-    <p>Learn more about hiking <a href="https://www.nps.gov/subjects/hiking/index.htm" target="_blank" rel="noopener noreferrer">here</a>.</p>
-
-  </p>
+<div class="content">
+  <ul class="square-list">
+    <li>Hiking in National Parks</li>
+    <li>Cooking and trying different kinds of food</li>
+  </ul>
+  <p>Learn more about hiking <a href="https://www.nps.gov/subjects/hiking/index.htm" target="_blank" rel="noopener noreferrer">here</a>.</p>
+</div>
 
 <h2>Fun Fact</h2>
 <p class="content">
   I have more interest in watching movies and cooking more than my education!!!
 </p>
+
 <p class="content">
   Last Updated on 27/10/2025
-  </p>
+</p>
+
 </body>
 </html>
-
-
-
-
-
-
-
